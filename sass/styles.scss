@@ -6,7 +6,7 @@
     height: 960px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url("/images/final-frontier_large.jpg");
+    background-image: url("../images/final-frontier_large.jpg");
     
 }
 a {
@@ -83,7 +83,7 @@ a:hover {
         height: 712px;
         background-size: 1068px 712px;
         background-repeat: no-repeat;
-        background-image: url("/images/final-frontier_medium.jpg");
+        background-image: url("../images/final-frontier_medium.jpg");
     }
 }
 
@@ -91,7 +91,7 @@ a:hover {
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 
     .space-image {
-        background-image: url("/images/final-frontier_large_2x.jpg");
+        background-image: url("../images/final-frontier_large_2x.jpg");
     }
 }
 
@@ -99,7 +99,7 @@ a:hover {
 @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
 
     .space-image {
-        background-image: url("/images/final-frontier_medium_2x.jpg");
+        background-image: url("../images/final-frontier_medium_2x.jpg");
     }
 }
 
@@ -112,7 +112,7 @@ a:hover {
         height: 490px;
         background-size: 735px 490px;
         background-repeat: no-repeat;
-        background-image: url("/images/final-frontier_small.jpg");
+        background-image: url("../images/final-frontier_small.jpg");
     
     }
 }
@@ -120,7 +120,7 @@ a:hover {
 @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
 
     .space-image {
-        background-image: url("/images/final-frontier_small_2x.jpg");
+        background-image: url("../images/final-frontier_small_2x.jpg");
     }
 }
 
