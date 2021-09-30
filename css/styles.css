@@ -1,0 +1,127 @@
+.space-image {
+  width: 100%;
+  height: 960px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("/images/final-frontier_large.jpg");
+}
+
+a {
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color 0.8s;
+  transition: color 0.8s;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.568);
+}
+
+@media only screen and (min-width: 1200px) {
+  .space-image {
+    background-size: cover;
+  }
+  .contenedor_hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .timeline-item.timeline-3 {
+    position: relative;
+    top: -307px;
+  }
+  .timeline-item.timeline-5 {
+    position: relative;
+    top: -307px;
+  }
+  .timeline-item.timeline-6 {
+    position: relative;
+    top: -196px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contenedor_hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .small_card {
+    height: 100%;
+  }
+  .timeline-item.timeline-3 {
+    position: relative;
+    top: -359px;
+  }
+  .timeline-item.timeline-5 {
+    position: relative;
+    top: -363px;
+  }
+  .timeline-item.timeline-6 {
+    position: relative;
+    top: -250px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .space-image {
+    width: 1068px;
+    height: 712px;
+    background-size: 1068px 712px;
+    background-repeat: no-repeat;
+    background-image: url("/images/final-frontier_medium.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .space-image {
+    background-image: url("/images/final-frontier_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .space-image {
+    background-image: url("/images/final-frontier_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .space-image {
+    width: 735px;
+    height: 490px;
+    background-size: 735px 490px;
+    background-repeat: no-repeat;
+    background-image: url("/images/final-frontier_small.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .space-image {
+    background-image: url("/images/final-frontier_small_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .gallery_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .small_moon {
+    max-height: 20%;
+    max-width: 33.33%;
+  }
+  .big_moon {
+    max-height: 20%;
+    max-width: 66.66%;
+  }
+  .even_moon {
+    max-height: 20%;
+    max-width: 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
