@@ -48,9 +48,6 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
   }
-  .small_card {
-    height: 100%;
-  }
   .timeline-item.timeline-3 {
     position: relative;
     top: -359px;
@@ -106,22 +103,102 @@ a:hover {
 @media only screen and (max-width: 736px) {
   .gallery_flex {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
+    -moz-display: flex;
+    -moz-flex-wrap: wrap;
+    -o-display: flex;
+    -o-flex-wrap: wrap;
+    -ms-display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -khtml-display: flex;
+    -khtml-flex-wrap: wrap;
   }
   .small_moon {
     max-height: 20%;
     max-width: 33.33%;
+    -moz-max-height: 20%;
+    -moz-max-width: 33.33%;
+    -o-max-height: 20%;
+    -o-max-width: 33.33%;
+    -ms-max-height: 20%;
+    -ms-max-width: 33.33%;
+    -khtml-max-height: 20%;
+    -khtml-max-width: 33.33%;
   }
   .big_moon {
     max-height: 20%;
     max-width: 66.66%;
+    -moz-max-height: 20%;
+    -moz-max-width: 66.66%;
+    -o-max-height: 20%;
+    -o-max-width: 66.66%;
+    -ms-max-height: 20%;
+    -ms-max-width: 66.66%;
+    -khtml-max-height: 20%;
+    -khtml-max-width: 66.66%;
   }
   .even_moon {
     max-height: 20%;
     max-width: 50%;
+    -moz-max-height: 20%;
+    -moz-max-width: 50%;
+    -o-max-height: 20%;
+    -o-max-width: 50%;
+    -ms-max-height: 20%;
+    -ms-max-width: 50%;
+    -khtml-max-height: 20%;
+    -khtml-max-width: 50%;
   }
 }
+
+/* .gallery_flex {
+    display: flex;
+    flex-wrap: wrap;
+    -moz-display: flex;
+    -moz-flex-wrap: wrap;
+    -o-display: flex;
+    -o-flex-wrap: wrap;
+    -ms-display: flex;
+    -ms-flex-wrap: wrap;
+    -khtml-display: flex;
+    -khtml-flex-wrap: wrap;
+}
+.small_moon {
+    max-height: 20% ;
+    max-width: 66.66% ;
+    -moz-max-height: 20% ;
+    -moz-max-width: 33.33% ;
+    -o-max-height: 20% ;
+    -o-max-width: 33.33% ;
+    -ms-max-height: 20% ;
+    -ms-max-width: 33.33% ;
+    -khtml-max-height: 20% ;
+    -khtml-max-width: 33.33% ;
+}
+.big_moon {
+    max-height: 20% ;
+    max-width: 66.66% ;
+    -moz-max-height: 20% ;
+    -moz-max-width: 66.66% ;
+    -o-max-height: 20% ;
+    -o-max-width: 66.66% ;
+    -ms-max-height: 20% ;
+    -ms-max-width: 66.66% ;
+    -khtml-max-height: 20% ;
+    -khtml-max-width: 66.66% ;
+}
+.even_moon {
+    max-height: 20% ;
+    max-width: 50% ;
+    -moz-max-height: 20% ;
+    -moz-max-width: 50% ;
+    -o-max-height: 20% ;
+    -o-max-width: 50% ;
+    -ms-max-height: 20% ;
+    -ms-max-width: 50% ;
+    -khtml-max-height: 20% ;
+    -khtml-max-width: 50% ;
+}
+ */
 /*# sourceMappingURL=styles.css.map */
